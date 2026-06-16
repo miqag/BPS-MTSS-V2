@@ -1,0 +1,628 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Barnstable MTSS Guidebook</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to main content</a>
+
+    <header class="site-header">
+      <div class="brand-lockup">
+        <img src="../assets/barnstable-logo.png" alt="Barnstable Public Schools logo">
+        <div>
+          <p class="eyebrow">Internal working draft</p>
+          <h1>Barnstable MTSS Guidebook</h1>
+        </div>
+      </div>
+      <nav class="top-nav" aria-label="Primary">
+        <a href="#overview">Overview</a>
+        <a href="#process">Process</a>
+        <a href="#interventions">Interventions</a>
+        <a href="#data">Data</a>
+        <a href="#tools">Tools</a>
+      </nav>
+    </header>
+
+    <div class="app-shell">
+      <aside class="side-rail" aria-label="Guidebook sections">
+        <div class="draft-card">
+          <span class="status-dot"></span>
+          <div>
+            <strong>Working Draft</strong>
+            <p>SEL, Early Literacy, Data & Assessment, and MLL guidance are still being refined.</p>
+          </div>
+        </div>
+
+        <label class="search-label" for="guideSearch">Search guidebook</label>
+        <input id="guideSearch" class="search-input" type="search" placeholder="Try STAR, SEL, Open Architect">
+
+        <nav class="section-list">
+          <a class="active" href="#overview">Vision</a>
+          <a href="#system">System Model</a>
+          <a href="#process">Student Support Process</a>
+          <a href="#early-literacy">Early Literacy</a>
+          <a href="#sel">SEL Interventions</a>
+          <a href="#data">Data & Assessment</a>
+          <a href="#mll">MLL Supports</a>
+          <a href="#tools">Team Tools</a>
+        </nav>
+      </aside>
+
+      <main id="main">
+        <section id="overview" class="hero-section">
+          <div class="hero-copy">
+            <p class="eyebrow red">Barnstable Public Schools MTSS</p>
+            <h2>Integrated support, early identification, and continuous improvement.</h2>
+            <p class="vision-text">
+              We are committed to a PK-12 district where our integrated system of comprehensive support consistently facilitates the early identification of student needs. This approach, guided by ongoing data analysis, provides targeted interventions that accelerate progress and cultivate a culture of continuous improvement for every child.
+            </p>
+            <div class="hero-actions">
+              <a class="button primary" href="#process">Start with the process</a>
+              <a class="button secondary" href="#interventions">Browse interventions</a>
+            </div>
+          </div>
+          <div class="quick-panel" aria-label="Guidebook snapshot">
+            <div>
+              <span class="metric">PK-12</span>
+              <p>Shared system across grade bands</p>
+            </div>
+            <div>
+              <span class="metric">2</span>
+              <p>Access pathways: screening and referral</p>
+            </div>
+            <div>
+              <span class="metric">6-8</span>
+              <p>Week review cycles for most supports</p>
+            </div>
+            <div>
+              <span class="metric">OA</span>
+              <p>Open Architect planned as intervention warehouse</p>
+            </div>
+          </div>
+        </section>
+
+        <section id="system" class="content-section">
+          <div class="section-heading">
+            <p class="eyebrow">System model</p>
+            <h2>How MTSS works in Barnstable</h2>
+            <p>MTSS is a data-driven prevention, early detection, and support system. It strengthens Tier 1 while matching additional support to student need.</p>
+          </div>
+
+          <div class="tier-grid">
+            <article class="tier-card" data-search="tier 1 core instruction universal support dcap scap udl pbis">
+              <span class="tier-label">Tier 1</span>
+              <h3>Core support for all students</h3>
+              <p>High-quality instruction, schoolwide expectations, DCAP/SCAP accommodations, UDL, PBIS, and regular data review.</p>
+            </article>
+            <article class="tier-card" data-search="tier 2 targeted intervention small group progress monitoring">
+              <span class="tier-label">Tier 2</span>
+              <h3>Targeted short-cycle support</h3>
+              <p>Supplemental, skill-focused intervention matched to a diagnosed need and monitored at least every two weeks.</p>
+            </article>
+            <article class="tier-card accent" data-search="tier 3 intensive individualized progress monitoring safety plan bip cra">
+              <span class="tier-label">Tier 3</span>
+              <h3>Intensive individualized support</h3>
+              <p>More intensive intervention, increased monitoring, and team review when students need support beyond Tier 2.</p>
+            </article>
+          </div>
+        </section>
+
+        <section id="process" class="content-section">
+          <div class="section-heading row">
+            <div>
+              <p class="eyebrow">Student support process</p>
+              <h2>Two pathways, one decision cycle</h2>
+              <p>All students begin the year with universal screening. The MTSS team reviews screening data, determines which students need additional diagnostics, and places students into intervention within three weeks when data indicate need.</p>
+            </div>
+            <div class="segmented-control" role="group" aria-label="Pathway view">
+              <button class="segment active" type="button" data-pathway="screening">Screening</button>
+              <button class="segment" type="button" data-pathway="referral">Referral</button>
+            </div>
+          </div>
+
+          <div class="timeline-strip" aria-label="Beginning of year MTSS timeline">
+            <article>
+              <span>Week 1</span>
+              <h3>Universal screening</h3>
+              <p>All students complete required screeners. For early literacy, STAR Reading is the primary universal screener.</p>
+            </article>
+            <article>
+              <span>Weeks 1-2</span>
+              <h3>Team data review</h3>
+              <p>MTSS teams review screener results and identify students who need diagnostics to clarify the precise need.</p>
+            </article>
+            <article>
+              <span>By Week 3</span>
+              <h3>Intervention placement</h3>
+              <p>Students with confirmed needs are matched to intervention, progress monitoring is assigned, and the plan is documented.</p>
+            </article>
+            <article>
+              <span>Monthly</span>
+              <h3>Progress review</h3>
+              <p>MTSS teams review PM data and other available data streams to continue, adjust, intensify, or exit supports.</p>
+            </article>
+          </div>
+
+          <div class="pathway-panel active" id="screening-pathway">
+            <ol class="process-list">
+              <li>
+                <span>1</span>
+                <div>
+                  <h3>Universal support and data review</h3>
+                  <p>At the beginning of the year, administer universal screeners to all students, compile benchmark data, and check Tier 1 effectiveness.</p>
+                </div>
+              </li>
+              <li>
+                <span>2</span>
+                <div>
+                  <h3>Diagnostic assessment</h3>
+                  <p>Use targeted diagnostics when needed to identify the specific skill, behavior, language-access, or social-emotional need.</p>
+                </div>
+              </li>
+              <li>
+                <span>3</span>
+                <div>
+                  <h3>Intervention matching</h3>
+                  <p>Within three weeks of screening, match students with confirmed needs to intervention, assign the provider, set dosage, and define progress monitoring.</p>
+                </div>
+              </li>
+            </ol>
+          </div>
+
+          <div class="pathway-panel" id="referral-pathway">
+            <ol class="process-list">
+              <li>
+                <span>1</span>
+                <div>
+                  <h3>Staff referral</h3>
+                  <p>Referral is available year-round for needs that emerge between screening windows. It should not replace proactive screening.</p>
+                </div>
+              </li>
+              <li>
+                <span>2</span>
+                <div>
+                  <h3>Information gathering</h3>
+                  <p>Review attempted supports, continue data collection, and prepare a focused student support meeting.</p>
+                </div>
+              </li>
+              <li>
+                <span>3</span>
+                <div>
+                  <h3>Support meeting</h3>
+                  <p>Determine next steps, document the plan, notify families, and set the reconvene date. After placement, review progress-monitoring data monthly.</p>
+                </div>
+              </li>
+            </ol>
+          </div>
+        </section>
+
+        <section id="interventions" class="content-section">
+          <div class="section-heading row">
+            <div>
+              <p class="eyebrow">Intervention catalog</p>
+              <h2>Browse current working-draft supports</h2>
+              <p>Filter by domain, grade band, and tier. Items marked “under review” need committee approval or additional team guidance.</p>
+            </div>
+            <button class="button secondary icon-button" id="resetFilters" type="button" aria-label="Reset filters">
+              <span aria-hidden="true">↺</span>
+              Reset
+            </button>
+          </div>
+
+          <div class="filter-bar" aria-label="Intervention filters">
+            <button class="filter-chip active" type="button" data-filter="all">All</button>
+            <button class="filter-chip" type="button" data-filter="literacy">Early Literacy</button>
+            <button class="filter-chip" type="button" data-filter="sel">SEL</button>
+            <button class="filter-chip" type="button" data-filter="k-5">K-5</button>
+            <button class="filter-chip" type="button" data-filter="6-7">6-7</button>
+            <button class="filter-chip" type="button" data-filter="8-12">8-12</button>
+            <button class="filter-chip" type="button" data-filter="review">Under Review</button>
+          </div>
+
+          <div class="intervention-grid">
+            <article class="intervention-card" data-tags="literacy k-3 k-5 tier2 approved star ckla arg cbm orf psf lsf">
+              <div class="card-topline">
+                <span class="badge navy">Tier 2</span>
+                <span class="badge gray">K-3</span>
+              </div>
+              <h3>Early Literacy Intervention</h3>
+              <p>STAR Reading is the primary universal screener. CBMs clarify the target skill, and CKLA ARG is the first-look resource for coherent support.</p>
+              <button class="details-toggle" type="button" aria-expanded="false">View planning notes</button>
+              <div class="details">
+                <ul>
+                  <li>Use PSF, LSF, ORF, phonics, decoding, and fluency measures based on the target.</li>
+                  <li>Use a 70/30 lesson model: targeted skill practice plus CKLA coherence support.</li>
+                  <li>Progress monitoring is owned by the interventionist and entered in Open Architect.</li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="intervention-card" data-tags="sel k-5 tier2 review dessa cico social skills zones">
+              <div class="card-topline">
+                <span class="badge navy">Tier 2</span>
+                <span class="badge red">Review</span>
+              </div>
+              <h3>K-5 SEL Small Groups</h3>
+              <p>Skill-focused groups for coping, regulation, social problem solving, peer relationships, and belonging. Recommended cycle: 6-8 weeks.</p>
+              <button class="details-toggle" type="button" aria-expanded="false">View planning notes</button>
+              <div class="details">
+                <ul>
+                  <li>DESSA is the clearest formal SEL screener currently used in K-3.</li>
+                  <li>Grades 4-5 use local surveys and other available data.</li>
+                  <li>Local school examples should remain under internal review.</li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="intervention-card" data-tags="sel 6-7 tier2 tier3 review mentoring cico restorative pass cra">
+              <div class="card-topline">
+                <span class="badge navy">6-7</span>
+                <span class="badge red">Review</span>
+              </div>
+              <h3>Grades 6-7 SEL Supports</h3>
+              <p>Mentoring groups, social skills groups, CICO, restorative modules, adapted scheduling, grief groups, and intensive referral pathways.</p>
+              <button class="details-toggle" type="button" aria-expanded="false">View planning notes</button>
+              <div class="details">
+                <ul>
+                  <li>SOS, relationship mapping, YouthTruth, SBIRT, attendance, and conduct data are used in different ways.</li>
+                  <li>CRA, safety plans, and clinical supports should be labeled as intensive supports or referral pathways.</li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="intervention-card" data-tags="sel 8-12 tier2 tier3 review restorative pass bridge ace project excel">
+              <div class="card-topline">
+                <span class="badge navy">8-12</span>
+                <span class="badge red">Review</span>
+              </div>
+              <h3>High School SEL Supports</h3>
+              <p>Restorative circles, community mentors, SAC counseling, PASS, student support plans, Bridge, ACE, Project Excel, and BIP supports.</p>
+              <button class="details-toggle" type="button" aria-expanded="false">View planning notes</button>
+              <div class="details">
+                <ul>
+                  <li>The team should clarify which supports are MTSS-owned and which are special programs or referral pathways.</li>
+                  <li>Hub meeting routines need tightening to become a stronger MTSS process.</li>
+                </ul>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section id="early-literacy" class="content-section literacy-section">
+          <div class="section-heading row">
+            <div>
+              <p class="eyebrow">Early literacy</p>
+              <h2>K-3 intervention design</h2>
+              <p>Early literacy intervention should accelerate students toward grade-level reading while keeping the student experience coherent with CKLA Tier 1 instruction.</p>
+            </div>
+            <span class="badge red">Working draft</span>
+          </div>
+
+          <div class="literacy-tabs" role="tablist" aria-label="Early literacy deep dive">
+            <button class="literacy-tab active" id="tab-literacy-system" type="button" role="tab" aria-selected="true" aria-controls="panel-literacy-system" data-literacy-tab="system">System</button>
+            <button class="literacy-tab" id="tab-literacy-pm" type="button" role="tab" aria-selected="false" aria-controls="panel-literacy-pm" data-literacy-tab="pm">PM Tools</button>
+            <button class="literacy-tab" id="tab-literacy-model" type="button" role="tab" aria-selected="false" aria-controls="panel-literacy-model" data-literacy-tab="model">70/30 Lesson Model</button>
+            <button class="literacy-tab" id="tab-literacy-resources" type="button" role="tab" aria-selected="false" aria-controls="panel-literacy-resources" data-literacy-tab="resources">Intervention Options</button>
+          </div>
+
+          <div class="literacy-panel active" id="panel-literacy-system" role="tabpanel" aria-labelledby="tab-literacy-system">
+            <div class="three-pack">
+              <article class="info-row">
+                <span class="red-rule"></span>
+                <div>
+                  <h3>Universal screener</h3>
+                  <p>At the beginning of the year, all K-3 students take STAR Reading. STAR is the primary universal screener and the first system-level signal that a student may need additional review.</p>
+                </div>
+              </article>
+              <article class="info-row">
+                <span class="red-rule"></span>
+                <div>
+                  <h3>Diagnostics within the first three weeks</h3>
+                  <p>The MTSS team reviews STAR data, determines which students need additional diagnostics, and places students into intervention within three weeks when data indicate need.</p>
+                </div>
+              </article>
+              <article class="info-row">
+                <span class="red-rule"></span>
+                <div>
+                  <h3>Monthly data review</h3>
+                  <p>After intervention begins, the MTSS team meets monthly to review progress-monitoring data and all other available streams, including classroom performance, attendance, behavior, and teacher input.</p>
+                </div>
+              </article>
+            </div>
+
+            <div class="measure-board">
+              <article>
+                <h3>Kindergarten</h3>
+                <p>Use STAR first, then prescribe LSF for letter-sound needs and PSF for phonemic-awareness needs when early literacy risk appears.</p>
+              </article>
+              <article>
+                <h3>Grades 1-3</h3>
+                <p>Use STAR first, then prescribe ORF as the default progress-monitoring tool. Add a skill-aligned CBM when the intervention target is below connected-text fluency.</p>
+              </article>
+              <article>
+                <h3>Exit signal</h3>
+                <p>Draft guidance: two consecutive data points in the blue range on the relevant progress-monitoring measure, plus team review of STAR and classroom performance.</p>
+              </article>
+            </div>
+          </div>
+
+          <div class="literacy-panel" id="panel-literacy-pm" role="tabpanel" aria-labelledby="tab-literacy-pm">
+            <div class="pm-intro">
+              <div>
+                <p class="eyebrow red">Prescriptive draft guidance</p>
+                <h3>Every literacy intervention must have a primary CBM progress-monitoring tool.</h3>
+                <p>The progress-monitoring measure should match the skill being taught closely enough to show whether the intervention is working. STAR is the universal screener; it is not the default Tier 2 progress-monitoring tool.</p>
+              </div>
+              <div class="pm-cadence">
+                <span>Tier 2</span>
+                <strong>Every 2 weeks</strong>
+                <span>Tier 3</span>
+                <strong>Weekly</strong>
+              </div>
+            </div>
+
+            <div class="pm-table-wrap">
+              <table class="pm-table">
+                <caption>Default early literacy progress-monitoring tools</caption>
+                <thead>
+                  <tr>
+                    <th scope="col">Grade / Need</th>
+                    <th scope="col">Primary CBM PM Tool</th>
+                    <th scope="col">Use When</th>
+                    <th scope="col">Team Decision Rule</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Kindergarten: phonemic awareness</td>
+                    <td>PSF - Phoneme Segmentation Fluency</td>
+                    <td>The intervention targets segmentation, blending, deletion, substitution, or other phoneme-level work.</td>
+                    <td>Review every two weeks. Continue, adjust, or intensify if PSF is flat or errors persist after two PM points.</td>
+                  </tr>
+                  <tr>
+                    <td>Kindergarten: letter-sound knowledge</td>
+                    <td>LSF - Letter Sound Fluency</td>
+                    <td>The intervention targets sound-symbol correspondence, rapid letter recognition, or automatic recall.</td>
+                    <td>Review every two weeks. Exit when LSF reaches the agreed benchmark and classroom evidence confirms transfer.</td>
+                  </tr>
+                  <tr>
+                    <td>Grade 1: early decoding or phonics</td>
+                    <td>NWF or taught-pattern decoding probe</td>
+                    <td>The intervention targets CVC words, blends, digraphs, short vowels, or a specific phonics pattern before ORF is sensitive enough.</td>
+                    <td>Use as the short-cycle measure, while also reviewing ORF when available. Shift primary PM to ORF once connected-text reading is the main target.</td>
+                  </tr>
+                  <tr>
+                    <td>Grades 1-3: oral reading fluency</td>
+                    <td>ORF - Oral Reading Fluency</td>
+                    <td>The intervention targets accuracy, rate, phrasing, prosody, self-correction, or connected-text application.</td>
+                    <td>ORF is the default PM measure for Grades 1-3. Review trend, accuracy, and error patterns monthly with the MTSS team.</td>
+                  </tr>
+                  <tr>
+                    <td>Grades 2-3: advanced phonics or multisyllabic decoding</td>
+                    <td>ORF plus taught-pattern decoding probe</td>
+                    <td>The student reads connected text but errors show a specific decoding pattern that needs intervention.</td>
+                    <td>Use ORF as the primary PM measure and the decoding probe as a secondary check until the pattern transfers to text.</td>
+                  </tr>
+                  <tr>
+                    <td>Any grade: vocabulary or CKLA access support</td>
+                    <td>Primary skill CBM plus brief CKLA access check</td>
+                    <td>The 30 percent coherence block targets vocabulary, background knowledge, or language needed for upcoming CKLA work.</td>
+                    <td>Do not use vocabulary checks alone as the PM tool. Pair them with the foundational-skill CBM named in the intervention plan.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div class="pm-rules">
+              <article>
+                <h3>Open Architect entry</h3>
+                <p>Each intervention record should name the baseline score, primary CBM PM tool, PM cadence, intervention target, provider, review date, and decision rule.</p>
+              </article>
+              <article>
+                <h3>Monthly MTSS review</h3>
+                <p>The MTSS team reviews PM trend, attendance, classroom performance, teacher input, and any relevant diagnostic data every month.</p>
+              </article>
+              <article>
+                <h3>Measure changes</h3>
+                <p>If the target skill changes, the PM tool should change too. Do not keep ORF as the only measure when the active target is PSF, LSF, or a specific decoding pattern.</p>
+              </article>
+            </div>
+          </div>
+
+          <div class="literacy-panel" id="panel-literacy-model" role="tabpanel" aria-labelledby="tab-literacy-model">
+            <div class="model-intro">
+              <div>
+                <p class="eyebrow red">Recommended practice</p>
+                <h3>The 70/30 lesson model</h3>
+                <p>A coherent Tier 2 literacy lesson should answer two questions: What exact reading skill is limiting the student right now? What CKLA Tier 1 learning is coming next that this student needs help accessing?</p>
+              </div>
+              <div class="ratio-card">
+                <span>70%</span>
+                <p>Targeted foundational skill instruction</p>
+                <span>30%</span>
+                <p>CKLA coherence and access support</p>
+              </div>
+            </div>
+
+            <div class="lesson-model-grid">
+              <article>
+                <h3>70 percent: targeted skill instruction</h3>
+                <ul>
+                  <li>State the specific skill target: PSF, LSF, decoding, phonics pattern, ORF accuracy, rate, phrasing, or connected-text fluency.</li>
+                  <li>Model the skill explicitly and briefly.</li>
+                  <li>Provide guided practice with immediate error correction.</li>
+                  <li>Use cumulative review so previously taught skills stay active.</li>
+                  <li>Apply the skill in words, phrases, sentences, or connected text.</li>
+                </ul>
+              </article>
+              <article>
+                <h3>30 percent: CKLA coherence support</h3>
+                <ul>
+                  <li>Preview upcoming CKLA vocabulary, concepts, text language, or background knowledge.</li>
+                  <li>Connect the skill target to upcoming CKLA words or text when possible.</li>
+                  <li>Rehearse oral language needed for CKLA discussion or writing.</li>
+                  <li>Clarify concepts that may block access to Tier 1 learning.</li>
+                  <li>End with a quick check to plan the next lesson.</li>
+                </ul>
+              </article>
+            </div>
+
+            <div class="sample-lesson">
+              <h3>Sample 30-minute Tier 2 lesson flow</h3>
+              <div class="lesson-row">
+                <span>3 min</span>
+                <p>Warm review: phonemic awareness, sound-symbol review, or previously taught word patterns.</p>
+              </div>
+              <div class="lesson-row">
+                <span>12 min</span>
+                <p>Explicit skill work: model, guided practice, corrective feedback, and cumulative decoding or encoding.</p>
+              </div>
+              <div class="lesson-row">
+                <span>6 min</span>
+                <p>Application: read or write words, sentences, or connected text aligned to the target skill.</p>
+              </div>
+              <div class="lesson-row">
+                <span>7 min</span>
+                <p>CKLA access support: preteach vocabulary, preview concepts, build background knowledge, or rehearse discussion language.</p>
+              </div>
+              <div class="lesson-row">
+                <span>2 min</span>
+                <p>Quick check: record response, note errors, and decide whether to reteach, continue, or adjust.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="literacy-panel" id="panel-literacy-resources" role="tabpanel" aria-labelledby="tab-literacy-resources">
+            <div class="resource-grid">
+              <article class="resource-card">
+                <div class="card-topline">
+                  <span class="badge navy">First look</span>
+                  <span class="badge gray">CKLA aligned</span>
+                </div>
+                <h3>CKLA Assessment and Remediation Guide</h3>
+                <p>CKLA ARG should be the first-look Tier 2 resource because it preserves common language, routines, and sequence with Tier 1 CKLA instruction.</p>
+                <h4>Best fit</h4>
+                <p>Students whose diagnosed need can be addressed through CKLA-aligned foundational skill practice, vocabulary previews, knowledge-building support, or remediation linked to current units.</p>
+                <h4>Prescribed PM tool</h4>
+                <p>Use the CBM that matches the ARG target: PSF for phonemic awareness, LSF for letter-sound knowledge, NWF or a taught-pattern decoding probe for phonics/decoding, and ORF for connected-text fluency in Grades 1-3.</p>
+                <h4>Implementation notes</h4>
+                <p>Start with the student skill target, locate the matching ARG lesson or practice sequence, and pair it with upcoming CKLA vocabulary, concepts, or text demands.</p>
+              </article>
+
+              <article class="resource-card">
+                <div class="card-topline">
+                  <span class="badge red">Committee review</span>
+                  <span class="badge gray">Phonics/decoding</span>
+                </div>
+                <h3>UFLI Foundations</h3>
+                <p>UFLI Foundations is an explicit, systematic foundational skills program designed for primary core instruction or intervention with struggling readers in any grade.</p>
+                <h4>Best fit</h4>
+                <p>Students who need structured decoding, encoding, phonics, irregular word, and connected-text practice beyond what the ARG sufficiently provides.</p>
+                <h4>Prescribed PM tool</h4>
+                <p>Use NWF or a taught-pattern decoding probe when the target is phonics or decoding. Use ORF as the primary PM tool once connected-text accuracy and fluency are the main intervention target.</p>
+                <h4>Implementation notes</h4>
+                <p>Use its consistent lesson routine for phonemic awareness, visual and auditory drills, blending, new concept instruction, word work, irregular words, and connected text. Pair with CKLA access support during the 30 percent coherence block.</p>
+              </article>
+
+              <article class="resource-card">
+                <div class="card-topline">
+                  <span class="badge red">Committee review</span>
+                  <span class="badge gray">Phonemic awareness</span>
+                </div>
+                <h3>Heggerty or Similar PA Sequence</h3>
+                <p>A focused phonemic-awareness sequence may be useful when diagnostics show PSF, blending, deletion, substitution, or phoneme-manipulation needs.</p>
+                <h4>Best fit</h4>
+                <p>Students whose oral phonemic awareness is limiting access to decoding and spelling work.</p>
+                <h4>Prescribed PM tool</h4>
+                <p>Use PSF as the primary PM tool. If the student is also receiving letter-sound or decoding work, add LSF or a decoding probe as a secondary measure.</p>
+                <h4>Implementation notes</h4>
+                <p>Keep the sequence brief, explicit, and connected to print whenever possible. Pair oral sound work with letters and CKLA words so the intervention does not become disconnected from reading.</p>
+              </article>
+            </div>
+
+            <div class="approval-note">
+              <strong>Draft status:</strong> CKLA ARG is the current first-look resource. UFLI, Heggerty, Read Naturally, Wilson, IMSE, Lively Letters, and other resources should be treated as candidate tools until approved by the MTSS steering committee or the appropriate district committee.
+            </div>
+          </div>
+        </section>
+
+        <section id="sel" class="content-section">
+          <div class="section-heading">
+            <p class="eyebrow">SEL interventions</p>
+            <h2>K-12 SEL guidance, organized by grade band</h2>
+            <p>The SEL section is intentionally marked as a working draft. The assessment system, entry thresholds, and approved intervention list need further refinement.</p>
+          </div>
+
+          <div class="accordion">
+            <button class="accordion-trigger" type="button" aria-expanded="true">K-5 SEL supports</button>
+            <div class="accordion-panel open">
+              <p>Tier 1 includes universal SEL routines, PBIS, Morning Meeting, Responsive Classroom, Zones, Second Step, calm corners, and counselor access. Tier 2 centers on short-cycle skill groups, CICO, mentoring, coping strategies, and behavior support plans. Tier 3 may include BIP, 1:1 skill-building, safety planning, and intensive referral supports.</p>
+            </div>
+            <button class="accordion-trigger" type="button" aria-expanded="false">Grades 6-7 SEL supports</button>
+            <div class="accordion-panel">
+              <p>Tier 1 includes Advisory, relationship mapping, SOS in Grade 7, R.I.S.E. routines, peer mediation, and Hub access. Tier 2 includes mentoring groups, social skills groups, CICO, Pre-CRA, restorative modules, and grief groups. Tier 3 includes 1:1 mentoring, clinical services, PASS, safety plans, CRA, and referral pathways.</p>
+            </div>
+            <button class="accordion-trigger" type="button" aria-expanded="false">Grades 8-12 SEL supports</button>
+            <div class="accordion-panel">
+              <p>Tier 1 includes SOS lessons, Advisory, TST/Hawktime/Stable Time, Hope Squad, SCAP, Maia, and Hub access. Tier 2 includes restorative circles, mentors, chemical health education, PASS, SAC counseling, and student support plans. Tier 3 includes ACE, Project Excel, Bridge, BIP, safety planning, and clinical or community referrals.</p>
+            </div>
+          </div>
+        </section>
+
+        <section id="data" class="content-section callout-section">
+          <div>
+            <p class="eyebrow red">Needs working-group input</p>
+            <h2>Data & Assessment section coming next</h2>
+            <p>This guidebook needs final guidance from the Data & Assessment working group on screening calendars, Open Architect setup, naming conventions, required fields, reporting windows, progress-monitoring expectations, and decision rules.</p>
+          </div>
+          <ul class="check-list">
+            <li>Confirm universal screening tools by grade band and domain.</li>
+            <li>Define entry and exit thresholds for intervention.</li>
+            <li>Clarify Open Architect workflows and ownership.</li>
+            <li>Align progress-monitoring cadence across academic and SEL supports.</li>
+          </ul>
+        </section>
+
+        <section id="mll" class="content-section callout-section quiet">
+          <div>
+            <p class="eyebrow red">Needs working-group input</p>
+            <h2>MLL guidance placeholder</h2>
+            <p>The MTSS site should include explicit guidance for multilingual learners so teams can distinguish language acquisition, access needs, Tier 1 scaffolds, and true intervention needs.</p>
+          </div>
+          <ul class="check-list">
+            <li>Add MLL critical data practice guidance.</li>
+            <li>Clarify required team members for student support meetings.</li>
+            <li>Identify language-access considerations in intervention matching.</li>
+            <li>Connect MLL supports to Tier 1 instruction and family communication.</li>
+          </ul>
+        </section>
+
+        <section id="tools" class="content-section">
+          <div class="section-heading">
+            <p class="eyebrow">Team tools</p>
+            <h2>Quick planning workspace</h2>
+            <p>Select the concern type to preview the recommended team starting point. This is a working-draft helper, not a final decision rule.</p>
+          </div>
+
+          <div class="planner">
+            <label for="concernType">Concern type</label>
+            <select id="concernType">
+              <option value="academic">Academic or early literacy</option>
+              <option value="sel">Social-emotional or behavioral</option>
+              <option value="attendance">Attendance or engagement</option>
+              <option value="mll">Multilingual learner access</option>
+            </select>
+            <div class="planner-output" id="plannerOutput" aria-live="polite">
+              Review STAR and classroom data, administer targeted diagnostics as needed, identify the specific subskill, match intervention, set progress monitoring, and document in Open Architect.
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
